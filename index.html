@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>German Greetings</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>German Greetings</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<div class="container">
+  <div class="container">
     <img src="germany-flag.png" class="flag" alt="German Flag">
 
     <h1>German Greetings</h1>
 
     <!-- Flashcard -->
     <div class="card" id="flashcard">
-        <p id="card-text"></p>
+      <p id="card-text"></p>
     </div>
 
     <!-- Flashcard Controls -->
     <div class="controls" id="flash-controls">
-        <button onclick="prevCard()">Previous</button>
-        <button onclick="nextCard()">Next</button>
+      <button onclick="prevCard()">Previous</button>
+      <button onclick="nextCard()">Next</button>
     </div>
 
     <!-- Test Button -->
     <button class="test-btn" id="test-btn" onclick="startTest()">
-        Test Yourself
+      Test Yourself
     </button>
 
     <!-- Test Area -->
     <div id="test-area" class="hidden">
-        <p id="question"></p>
-        <div id="options"></div>
-        <p id="result"></p>
-        <button class="back-btn" onclick="closeTest()">Back to Flashcards</button>
+      <p id="question"></p>
+      <div id="options"></div>
+      <p id="result"></p>
     </div>
-</div>
+  </div>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
-
